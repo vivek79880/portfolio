@@ -1,0 +1,8 @@
+/*
+ Quantcast measurement tag
+ Copyright (c) 2008-2025, Quantcast Corp.
+*/
+'use strict';(function(d,m,k){var n=function(a){var b=k.createElement("a");b.href=a;return b},p=[/^http[s]?:\/\/((adservice.google.*)|([^\/]*fls\.doubleclick\.net))\/.*~oref=(?<url>[^;\n]*)/,/^http[s]?:\/\/[^\/]*tealium.*\/.*page_url=(?<url>[^&]*)/,/^(?<domain>http[s]?:\/\/[^\/]*\/)wpm@[^\/]*\/.*\/modern\/(?<url>.*)/],q=function(a,b,e){return a?"nc"===a?!b||!e||0>b.indexOf(e):"eq"===a?b===e:"sw"===a?0===b.indexOf(e):"ew"===a?(a=b.length-e.length,b=b.lastIndexOf(e,a),-1!==b&&b===a):"c"===a?0<=b.indexOf(e):
+!1:!1},f=function(a,b,e){if(m.top!==m.self){try{for(var l=0;l<p.length;l++){var h=k.location.href.match(p[l]);if(h&&h.groups.url){var c=h.groups.url;h.groups.domain&&(c=h.groups.domain+c);c=decodeURIComponent(c);break}}}catch(r){}c=c?n(c):n(k.referrer)}else c=k.location;c=c.href;q(b,c,e)?a(c):a(!1)},g=function(a){return"array"==={}.toString.call(a).match(/\s([a-zA-Z]+)/)[1].toLowerCase()?{labels:a.join(",")}:{labels:""+a}};try{__qc("defaults",d,{labels:"_fp.event.Default"})}catch(a){}__qc.apply(null,
+["rules",[d,null,[[g,"_fp.event.Earn Pages"]],[[f,"c","/earn"]]],[d,null,[[g,"_fp.event.Monetize Your Following"]],[[f,"c","https://linktr.ee/s/monetize-your-following"]]],[d,null,[[g,"_fp.event.Turn Your Content Into Cash"]],[[f,"eq","https://linktr.ee/s/turn-your-content-into-cash-with-linktree"]]],[d,null,[[g,"_fp.event.S"]],[[f,"c","/s/"]]],[d,null,[[g,"_fp.event.Templates"]],[[f,"c","templates"]]],[d,null,[[g,"_fp.event.Blog"]],[[f,"c","blog"]]],[d,null,[[g,"_fp.event.Products"]],[[f,"c","products"]]],
+[d,null,[[g,"_fp.event.Black Friday"]],[[f,"c","black-friday"]]]])})("p-kjNDsXbU3GBy8",window,document);
